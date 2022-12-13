@@ -1,0 +1,107 @@
+:root
+{
+  --bg-color:#272b30;
+  --main-font:'Montserrat Alternates', sans-serif;
+  --light-bg:#24baef;
+  --font-color:#fff;
+}
+body {
+ 
+  background-color: var(--bg-color) ;
+}
+a { 
+  text-decoration: none;
+}
+.ftp-blue {
+  color: var(--light-bg);
+}
+.game-body {
+ background-color: var(--bg-color);
+}
+.mouse-pointer {
+ cursor: pointer;
+}
+.text-gray
+{
+  color: rgb(169, 169, 169);
+}
+.btn-ftg-blue {
+  background-image: linear-gradient(#4799eb,#4799eb 60%,#49acff);
+    color: #fff;
+    background-color: #4799eb;
+    border-color: badge
+}
+.badge {
+background-color: #4799eb;
+}
+.btn-dark2 {
+  color: #aaa;
+  background-color: #32383e;
+  border-color: #32383e;
+}
+.desc {
+ color: #aaa;
+}
+.logo {
+  width: 70px;
+  filter: drop-shadow(1px 1px 3px #1983e6ce);
+}
+.l-text {
+  font-family: Xanh Mono;
+}
+.home{
+  background: url(Component/Home/img/paladins.b44d33d6e7ee1ba8.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+.game-body
+{
+  transition: transform 0.2s;
+}
+.game-body:hover
+{
+  transform: scale(1.05);
+}
+.btn-outline-ftg{
+  
+  color: #4799eb;
+  border-color: #4799eb;
+  height: fit-content;
+
+}
+.btn-outline-ftg:hover{
+  color: #4799eb;
+  border-color: #4799eb;
+}
+.offline {
+  background-color: #f1494c;
+  box-shadow: 10px 10px 10px #ef2427;
+  padding: 30px;
+  position: fixed; 
+  left: 50px;
+  top: 50%;
+  z-index: 999;
+  font-weight: 600;
+  font-size: 20px;
+}
+.bg-error {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+.loading
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+  color: #f1494c;
+}
